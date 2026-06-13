@@ -24,7 +24,6 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-webmvc")
 	// 서비스 특성에 따라 주석 해제해서 사용한다.
 	// implementation("org.springframework.boot:spring-boot-starter-data-jpa")
-	// runtimeOnly("com.mysql:mysql-connector-j")
 	// implementation("org.springframework.boot:spring-boot-starter-data-redis")
 	// implementation("org.springframework.boot:spring-boot-starter-security")
 	// implementation("org.springframework.kafka:spring-kafka")
