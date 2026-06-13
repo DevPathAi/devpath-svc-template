@@ -6,7 +6,7 @@
 
 - Spring Boot 4.0.x · Java 21 · Gradle (Kotlin DSL)
 - 기본 스타터: WebMVC, Actuator, Validation, Lombok
-- 선택 의존성(JPA + MySQL, Redis, Security, Kafka)은 `build.gradle.kts`에 주석으로 포함 — 서비스 특성에 맞게 해제
+- 선택 의존성(JPA + PostgreSQL, Redis, Security, Kafka)은 `build.gradle.kts`에 주석으로 포함 — 서비스 특성에 맞게 해제
 - `docs/project-management/` — [workflow-dashboard](https://github.com/DevPathAi/workflow-dashboard) 동기화 대상 디렉터리
 
 ## 새 서비스 만들기
@@ -27,7 +27,7 @@
 ./gradlew bootRun      # 로컬 실행 (기본 포트 8080)
 ```
 
-로컬 인프라(MySQL, Redis, Kafka 등)는 [devpath-shared](https://github.com/DevPathAi/devpath-shared)의 docker-compose를 사용합니다.
+로컬 인프라(PostgreSQL, Redis, Kafka 등)는 [devpath-shared](https://github.com/DevPathAi/devpath-shared)의 docker-compose를 사용합니다.
 
 ## 개발 규칙
 
